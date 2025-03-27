@@ -20,6 +20,7 @@
     "next": "^14.2.15",
     "next-themes": "^0.3.0",
     "nodemailer": "^6.10.0",
+    "openai": "^4.90.0",
     "particles.js": "^2.0.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",

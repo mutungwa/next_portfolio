@@ -17,7 +17,7 @@ export default function ContactForm() {
     setStatus("idle");
 
     try {
-      const response = await fetch("/api/send-email", {
+      const response = await fetch("/api/email-service", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

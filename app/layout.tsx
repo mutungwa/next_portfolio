@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { ThemeProvider } from "next-themes";
 import Header from "components/Header";
 import Footer from "components/Footer";
+import Chatbot from "components/Chatbot";
 import "styles/globals.css";
 
 export const metadata: Metadata = {
@@ -26,6 +27,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <Header />
           <main>{children}</main>
           <Footer />
+          <Chatbot />
         </ThemeProvider>
       </body>
     </html>

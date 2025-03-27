@@ -1,3 +1,5 @@
+"use client";
+
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 const projects = [
@@ -26,8 +28,8 @@ const projects = [
 
 export default function ProjectsPage() {
   return (
-    <div className="min-h-screen bg-white dark:bg-black flex items-center justify-center p-6">
-      <div className="max-w-6xl w-full">
+    <div className="flex flex-col min-h-screen bg-white dark:bg-gradient-radial dark:from-dark-blue dark:to-darker-blue">
+      <main className="container mx-auto px-4 py-12">
         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-gray-900 dark:text-white mb-12 text-center">
           My Projects
         </h1>
@@ -35,7 +37,7 @@ export default function ProjectsPage() {
           {projects.map((project, index) => (
             <div
               key={index}
-              className="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300"
+              className="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 border-2 border-cyan-500/20"
             >
               <img
                 src={project.image}
@@ -71,7 +73,7 @@ export default function ProjectsPage() {
             </div>
           ))}
         </div>
-      </div>
+      </main>
     </div>
   );
 }

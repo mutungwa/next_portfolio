@@ -21,7 +21,7 @@ export default function AboutPage() {
     setStatus("idle");
 
     try {
-      const response = await fetch("/api/send-email", {
+      const response = await fetch("/api/email-service", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
