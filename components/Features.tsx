@@ -1,39 +1,54 @@
 import React from "react";
 import FeatureCard from "./FeatureCard";
-import { FaReact, FaDatabase, FaShieldAlt } from "react-icons/fa";
-import { SiNextdotjs, SiTailwindcss, SiStripe } from "react-icons/si";
+import { FaReact, FaDatabase, FaDocker } from "react-icons/fa";
+import { SiNextdotjs, SiMongodb, SiPostgresql, SiReact, SiTensorflow, SiPandas, SiWireshark } from "react-icons/si";
 
 const Features = () => {
   const features = [
     {
       icon: SiNextdotjs,
-      title: "Next.js 14",
-      description: "App dir, Routing, Layouts, components, and more.",
+      title: "Next.js",
+      description: "Proficient in building scalable, server-rendered applications with Next.js.",
     },
     {
       icon: FaReact,
-      title: "React 18",
-      description: "Server and Client Components. using hooks and context.",
+      title: "React",
+      description: "Experienced in building dynamic, component-based UIs with React.",
     },
     {
-      icon: FaDatabase,
-      title: "Database",
-      description: "Postgres basic database and other cool features to come.",
+      icon: SiReact,
+      title: "React Native",
+      description: "Skilled in developing cross-platform mobile applications with React Native.",
     },
     {
-      icon: SiTailwindcss,
-      title: "Components",
-      description: "Awesome components built with Tailwind CSS and more to come.",
+      icon: SiMongodb,
+      title: "MongoDB",
+      description: "Proficient in designing and managing NoSQL databases with MongoDB.",
     },
     {
-      icon: FaShieldAlt,
-      title: "Authentication",
-      description: "Talk about your authentication features built into your app.",
+      icon: SiPostgresql,
+      title: "PostgreSQL",
+      description: "Experienced in working with relational databases using PostgreSQL.",
     },
     {
-      icon: SiStripe,
-      title: "Subscriptions",
-      description: "Talk about your subscription features and how they work.",
+      icon: SiTensorflow,
+      title: "TensorFlow",
+      description: "Skilled in building and deploying machine learning models with TensorFlow.",
+    },
+    {
+      icon: SiPandas,
+      title: "Pandas",
+      description: "Proficient in data manipulation and analysis using Pandas.",
+    },
+    {
+      icon: FaDocker,
+      title: "Docker",
+      description: "Experienced in containerizing applications and managing deployments with Docker.",
+    },
+    {
+      icon: SiWireshark,
+      title: "Wireshark",
+      description: "Proficient in network protocol analysis and troubleshooting with Wireshark.",
     },
   ];
 
@@ -41,10 +56,11 @@ const Features = () => {
     <section className="container mx-auto px-4 py-12 bg-gray-50 dark:bg-gray-900 transition-colors duration-200 rounded-lg">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 dark:text-white mb-4">Features</h2>
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 dark:text-white mb-4">
+            Technology Stack
+          </h2>
           <p className="mt-8 text-xl text-gray-600 dark:text-gray-300 font-light">
-            Highlight cool features of your app using the beautifully designed custom cards with icons. You can use any
-            icon you want.
+            Here are some of the technologies and tools I work with to build robust and scalable solutions.
           </p>
         </div>
         <div className="mt-10">
