@@ -28,3 +28,4 @@ Thumbs.db
 # Build artifacts
 /build
 /dist
+.env.local
