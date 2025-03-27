@@ -11,9 +11,17 @@ module.exports = {
       colors: {
         "dark-blue": "hsl(220, 30%, 10%)", // Dark blue
         "darker-blue": "hsl(220, 30%, 5%)", // Darker blue
+        fuchsia: {
+          500: "hsl(293.4, 69.5%, 48.8%)", // Fuchsia-500
+        },
+        cyan: {
+          500: "hsl(187.9, 85.7%, 53.3%)",
+          600: "hsl(187.9, 85.7%, 43.3%)",
+        },
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(circle at center, var(--tw-gradient-stops))",
+        "gradient-fade": "linear-gradient(to right, hsl(293.4, 69.5%, 48.8%), transparent)", // Gradient fading from fuchsia to transparent
       },
       fontFamily: {
         sans: [

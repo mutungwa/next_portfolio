@@ -20,6 +20,14 @@ export default function Header() {
             </li>
             <li>
               <Link
+                href="/about"
+                className="text-sm text-gray-800 dark:text-white px-4 py-2 rounded-md hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
+              >
+                About
+              </Link>
+            </li>
+            <li>
+              <Link
                 href="/projects"
                 className="text-sm text-gray-800 dark:text-white px-4 py-2 rounded-md hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
               >
@@ -28,10 +36,10 @@ export default function Header() {
             </li>
             <li>
               <Link
-                href="/contact"
+                href="/blog"
                 className="text-sm text-gray-800 dark:text-white px-4 py-2 rounded-md hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
               >
-                Contact
+                Blog
               </Link>
             </li>
           </ul>
